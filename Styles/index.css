@@ -1,0 +1,42 @@
+html, body {
+    background: url('../images/4.jpg') no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
+nav {
+    width: 100%;
+
+}
+.nav1 {
+    min-width: 165px;
+    position:absolute;
+    right: 10px;
+    white-space: nowrap;
+}
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    font-family: serif;
+    text-shadow: black;
+    color: black;
+    position: relative;
+}
+hr {
+    width: 80%;
+    align: center;
+    height: 2em;
+    position: relative;
+    color: black;
+
+}
+h2 {
+    text-align: center;
+    margin-top: 0;
+    font-family: serif;
+    text-shadow: black;
+    color: gray;
+    position: relative;
+}
