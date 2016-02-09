@@ -39,20 +39,18 @@
     background-size: cover;
     width: 100%;
     height:1000px;
-    text-align: center;
-    font-family: serif;
-    text-shadow: white;
-    color: black;
     position: relative;
-}
-p{
-    font-family: serif;
-    font-size: 2em;
 
 }
-h1{
+#content, #hello{
     font-weight: bold;
+    font-size: 2em;
     margin-top: auto;
+    font-family: serif;
+    color: ThreeDDarkShadow;
+    text-align: center;
+    text-shadow: black;
+    padding: 2px;
 }
 
 nav {
@@ -61,7 +59,7 @@ nav {
 }
 .nav1 {
     min-width: 165px;
-    position:relative;
+    position:absolute;
     right: 5px;
 }
 #footer{
@@ -71,4 +69,8 @@ nav {
     background-color: beige;
     width: 100%;
     height: 200px;
+}
+.btn-group{
+    text-color: whitesmoke;
+
 }
