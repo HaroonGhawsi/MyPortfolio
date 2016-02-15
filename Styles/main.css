@@ -10,6 +10,7 @@
     height: 1000px;	
 	padding: 15%;
 	text-align: center;	
+
 }
 
 #pg2{
@@ -37,6 +38,10 @@
     background-size: cover;
     width: 100%;
     height: 1000px;
+	padding-top: 5%;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-bottom: 60%;
 }
 #pg4{
     background-image: url('../images/3.jpg');
@@ -48,6 +53,7 @@
     background-size: cover;
     width: 100%;
     height: 1000px;
+	
 }
 nav {
     width: 100%; 
@@ -81,13 +87,12 @@ p{
 }
 #about{
 	border: 1px;
-	padding: 10px;
-	padding-right: 20px;
+	padding: 5px;
 	background-color: black;
 	border-radius: 10px;
 	filter: alpha(opacity=70%);
 	opacity: 0.7;
-	position: center;
+	
 }
 .h33, ul{
 	font-family: serif;
@@ -102,4 +107,57 @@ p{
 	top: 1150px;
 	
 }
+#myport{
+	border: 1px;
+	background-color: white;
+	border-radius: 10px;
+	filter: alpha(opacity=80%);
+	opacity: 0.8;
+	color: black;
+	text-align: center;
+	
+}
+h1{
+	font-family: Serif;
+	font-size: 4em;
+	color: black;
+	padding: 2%;
+}
 
+#cont{
+	font-family: Serif;
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	padding: 5%;
+}
+#btns{
+	margin-top: 5%;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+#email{
+	margin-top: 5%;
+	margin-left: 30%;
+	margin-right: 30%;
+	color: black;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 4em;
+	border: 1px;
+	background-color:white;
+	filter: alpha(opacity=70%);
+	opacity:0.7;
+	text-align: center;
+	border-radius: 10px;
+}
+a:link{
+	color: white;
+}
+a:visited{
+	font: underline;
+	color:white;
+}
+a:hover{
+	font-weight: bold;
+}

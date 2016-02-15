@@ -2,14 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+    
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+	<script src="JS/app.js"></script>
+	<script src="dist/sweetalert.min.js"></script>
+	
     <title>Haroon Ghawsi Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="Styles/main.css" media="all" />
@@ -43,7 +40,7 @@
 		
 </div>
     <div id="imgcont">
-		<img src="images/myself.jpg" width="500px" height="700px" align="right"></img>
+		<img src="images/myself.jpg" class="img-rounded" width="500px" height="700px" align="right"></img>
 		</div>
 <div id="pg2">
 		
@@ -77,7 +74,7 @@
 				<p>MongoDB, Oracle, MySQL</p>
 				
 				<div class="h33">
-				<br><strong><h4>Software Development Frameworks:</h4></strong></div>
+				<br><strong><h4>Software Development Tools:</h4></strong></div>
 				<p>Git, Eclipse, WebStorm, Notepad++</p></br>
 				
 				<div class="h33">
@@ -93,8 +90,30 @@
 </div>
 
 
-<div id="pg3"></div>
-<div id="pg4"></div>
+<div id="pg3">
+	<div id="myport">
+		<h1>My Projects Portfolio</h1>
+	</div>
+	<ul class="thumbnails">
+		<li class="span4">
+			<a href="#" class="thumbnails">Image</a></li>
+		</li>
+	
+	</ul>
+
+</div>
+<div id="pg4">
+			<div id="cont">Sources of Contact</div>
+				<div id="btns">
+						<button type="button" class="btn btn-success btn-lg btn-block active"><a href="http://github.com/HaroonGhawsi">GitHub</a></button>
+						<button type="button" class="btn btn-primary btn-lg btn-block active"><a href="https://de.linkedin.com/in/haroonghawsi">Linkedin</a></button>
+						<button type="button" class="btn btn-info btn-lg btn-block active"><a href="https://twitter.com/HGhawsi">Twitter</a></button>
+						<button type="button" class="btn btn-danger btn-lg btn-block active" onclick=displayEmail();>eMail</button>
+						
+				</div>
+					
+</div>
+
 
 
 </body>
