@@ -1,4 +1,4 @@
 
 	function displayEmail(event){
-	alert("Thank you", "ghawsiharoon@gmail.com", "success");
+	alert("ghawsiharoon@gmail.com");
 }
