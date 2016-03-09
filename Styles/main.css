@@ -1,0 +1,170 @@
+#pg1{
+    background-image: url('../images/4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 700px;	
+	padding: 5%;
+	text-align: center;	
+
+}
+
+#pg2{
+    background-image: url('../images/1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+	padding: 5%;
+	
+}
+#pg3{
+    background-image: url('../images/2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+	padding-top: 5%;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-bottom: 60%;
+}
+#pg4{
+    background-image: url('../images/3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+	
+}
+nav {
+    width: 100%; 
+}
+.nav1 {
+    min-width: 165px;
+    right: 5px;
+}
+.fixed-nav-bar{
+    position: fixed;
+}
+#pg1cont{
+	border: 1px;
+	padding: 5px;
+	background-color: black;
+	border-radius: 10px;
+	filter: alpha(opacity=70%);
+	opacity: 0.7;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+h2{
+	font-family: Serif;
+	font-size: 2em;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+#p{
+	color: yellow;
+	font-family: lucida console;
+	font-size: 15px;
+	padding-left: 5%;
+}
+#pg2cont{
+	border: 1px;
+	padding: 5px;
+	background-color: black;
+	border-radius: 10px;
+	filter: alpha(opacity=70%);
+	opacity: 0.7;
+	margin-right: 500px;
+	margin-left: 50px;
+	margin-top: 50px;
+	
+}
+.h33, p{
+	font-family: serif;
+	font-size: 18px;
+	color: white;
+	padding-left: 5%;
+	color: cream;
+	
+}
+#imgcont{
+	position: absolute;
+	left: 70%;
+	top: 800px;
+	
+}
+#myport{
+	border: 1px;
+	background-color: white;
+	border-radius: 10px;
+	filter: alpha(opacity=80%);
+	opacity: 0.8;
+	color: black;
+	text-align: center;
+	
+}
+h1{
+	font-family: Serif;
+	font-size: 4em;
+	color: black;
+	padding: 2%;
+}
+
+#cont{
+	font-family: Serif;
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	padding: 5%;
+}
+#btns{
+	margin-top: 5%;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+#email{
+	margin-top: 5%;
+	margin-left: 30%;
+	margin-right: 30%;
+	color: black;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 4em;
+	border: 1px;
+	background-color:white;
+	filter: alpha(opacity=70%);
+	opacity:0.7;
+	text-align: center;
+	border-radius: 10px;
+}
+a:link{
+	color: white;
+}
+a:visited{
+	font: underline;
+	color:white;
+}
+a:hover{
+	font-weight: bold;
+}
